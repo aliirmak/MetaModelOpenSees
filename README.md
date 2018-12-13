@@ -17,4 +17,3 @@ This project seeks to add a basic support to WebGME to run OpenSees models. Usin
 - Open the example double-clicking on it. Do not click on any block and run OpenSees transformation.
 - Under a minute, the plugin will convert the model into an executable Tcl script, run the simulation, and generate outputs.
 - After successful run of the plugin, go to **SimulationResultPlotter** under Visualizer Selector on the left side. This will show simulation results. The visualization may take some a minute due to the amount of data.
-Then, run `webgme start` from the project root to start . Finally, navigate to `http://localhost:8888` to start using mywebgmeapp!
