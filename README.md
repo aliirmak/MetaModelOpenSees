@@ -7,7 +7,7 @@ This project seeks to add a basic support to WebGME to run OpenSees models. Usin
 - Follow the standard installation and setup of WebGME (as instructed here https://github.com/webgme/webgme).
 - This project assumes your mongodb folder is **webgmeData** under C drive and your application folder is **mywebgmeapp** under C drive.
 - There is a plugin called **OpenSeesTransformation** that converts an OpenSees WebGME model into Tcl script. It is located under **src\plugins\OpenSeesTransformation**. Standard entry point for debug is run_debug.py under the same folder. The transformation code is given in **__init__.py** under **src\plugins\OpenSeesTransformation\OpenSeesTransformation**
-- Python 3.6 is used. Packages like webgme_binding, sys, os, subprocess, signal, atexit, and logging should be already installed since the transformation code.
+- Python 3.6 is used. Packages like webgme_binding, sys, os, time, csv, subprocess, signal, atexit, ElementTree, StringIO and logging should be already installed since the transformation code.
 - plotly.js is used for visualization. It is already provided in the repo so no need for new installation.
 - I believe dumping the content to a freshly created **mywebgmeapp** should make the project work.
 
