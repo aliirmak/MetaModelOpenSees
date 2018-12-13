@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <OpenSees
+  xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation = "http://OpenSees.berkeley.edu/xml-schema/xmlns/OpenSees.xsd">
+    <NodeOutput nodeTag="5" coord1="0" coord2="162" coord3="0">
+        <ResponseType>D1</ResponseType>
+    </NodeOutput>
+    <NodeOutput nodeTag="6" coord1="360" coord2="162" coord3="0">
+        <ResponseType>D1</ResponseType>
+    </NodeOutput>
+    <NodeOutput nodeTag="7" coord1="720" coord2="162" coord3="0">
+        <ResponseType>D1</ResponseType>
+    </NodeOutput>
+    <NodeOutput nodeTag="8" coord1="1080" coord2="162" coord3="0">
+        <ResponseType>D1</ResponseType>
+    </NodeOutput>
+    <NodeOutput nodeTag="9" coord1="0" coord2="324" coord3="0">
+        <ResponseType>D1</ResponseType>
+    </NodeOutput>
+    <NodeOutput nodeTag="10" coord1="360" coord2="324" coord3="0">
+        <ResponseType>D1</ResponseType>
+    </NodeOutput>
+    <NodeOutput nodeTag="11" coord1="720" coord2="324" coord3="0">
+        <ResponseType>D1</ResponseType>
+    </NodeOutput>
+    <NodeOutput nodeTag="12" coord1="1080" coord2="324" coord3="0">
+        <ResponseType>D1</ResponseType>
+    </NodeOutput>
+    <NodeOutput nodeTag="13" coord1="0" coord2="486" coord3="0">
+        <ResponseType>D1</ResponseType>
+    </NodeOutput>
+    <NodeOutput nodeTag="14" coord1="360" coord2="486" coord3="0">
+        <ResponseType>D1</ResponseType>
+    </NodeOutput>
+    <NodeOutput nodeTag="15" coord1="720" coord2="486" coord3="0">
+        <ResponseType>D1</ResponseType>
+    </NodeOutput>
+    <NodeOutput nodeTag="16" coord1="1080" coord2="486" coord3="0">
+        <ResponseType>D1</ResponseType>
+    </NodeOutput>
+    <Data>
+        1 0.721264 0.708276 0.701705 0.701544 1.69497 1.64815 1.61937 1.61324 2.60596 2.44494 2.33535 2.26377 
+        2 1.45492 1.42055 1.39922 1.3905 3.39885 3.2985 3.23614 3.21714 5.13885 4.86717 4.69286 4.60004 
+        3 2.18831 2.13269 2.0967 2.07953 5.10224 4.94856 4.8528 4.82114 7.67129 7.28907 7.05015 6.93619 
+        4 2.92144 2.84468 2.79413 2.76863 6.80511 6.59834 6.46936 6.42523 10.2033 9.71063 9.40721 9.27223 
+        5 3.6543 3.55653 3.49153 3.45782 8.50748 8.24782 8.08582 8.02942 12.7348 12.1319 11.7641 11.6082 
+        6 4.3869 4.26824 4.18889 4.14708 10.2093 9.89703 9.70218 9.63372 15.2659 14.5528 14.1207 13.944 
+        7 5.11923 4.9798 4.88621 4.83642 11.9107 11.5459 11.3184 11.2381 17.7965 16.9734 16.4771 16.2797 
+        8 5.85131 5.69123 5.5835 5.52584 13.6116 13.1946 12.9346 12.8426 20.3267 19.3936 18.8333 18.6153 
+        9 6.58312 6.40253 6.28075 6.21533 15.3119 14.8429 14.5507 14.4472 22.8564 21.8136 21.1894 20.9508 
+        10 7.31468 7.11368 6.97797 6.90492 17.0118 16.491 16.1667 16.0519 25.3857 24.2332 23.5452 23.2862 
+        </Data>
+</OpenSees>

@@ -1,0 +1,24 @@
+{
+  "id": "OpenSeesTransformation",
+  "name": "OpenSeesTransformation",
+  "version": "0.1.0",
+  "description": "",
+  "icon": {
+    "class": "glyphicon glyphicon-cog",
+    "src": ""
+  },
+  "disableServerSideExecution": false,
+  "disableBrowserSideExecution": true,
+  "dependencies": [],
+  "writeAccessRequired": false,
+  "configStructure": [
+    {
+      "name": "simulate",
+      "displayName": "Simulate Model",
+      "description": "If true the generated model will be simulated.",
+      "value": false,
+      "valueType": "boolean",
+      "readOnly": false
+    }
+  ]
+}

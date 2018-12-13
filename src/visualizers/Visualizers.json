@@ -1,0 +1,8 @@
+[
+  {
+    "id": "SimulationResultPlotter",
+    "title": "SimulationResultPlotter",
+    "panel": "panels/SimulationResultPlotter/SimulationResultPlotterPanel",
+    "DEBUG_ONLY": false
+  }
+]

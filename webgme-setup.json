@@ -1,0 +1,37 @@
+{
+  "components": {
+    "plugins": {
+      "MyPythonPlugin": {
+        "src": "src/plugins/OpenSeesTransformation",
+        "test": "test/plugins/OpenSeesTransformation"
+      }
+    },
+    "seeds": {
+      "OpenSees": {
+        "src": "src/seeds/OpenSees"
+      }
+    },
+    "addons": {},
+    "decorators": {},
+    "layouts": {},
+    "routers": {},
+    "visualizers": {
+      "SimulationResultPlotter": {
+        "src": "panels/SimulationResultPlotter/SimulationResultPlotterPanel",
+        "title": "SimulationResultPlotter",
+        "panel": "src/visualizers/panels/SimulationResultPlotter",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/SimulationResultPlotter"
+      }
+    }
+  },
+  "dependencies": {
+    "plugins": {},
+    "seeds": {},
+    "addons": {},
+    "decorators": {},
+    "layouts": {},
+    "routers": {},
+    "visualizers": {}
+  }
+}
