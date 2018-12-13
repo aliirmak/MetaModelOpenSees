@@ -1,4 +1,3 @@
-@@ -1,19 +1,9 @@
 # Meta Modeling for OpenSees
 OpenSees, the Open System for Earthquake Engineering Simulation, is an open-source finite element tool that has advanced capabilities for modeling and analyzing linear and nonlinear response of structural and geotechnical systems using a wide range of material models, elements, and solution algorithms. OpenSees is a text-based program and users develop their models by writing scripts in Tcl and employing commands special to OpenSees. The commands for scripts are specific to structural and geotechnical domains. Users can define variables such as geometry, boundary conditions, section size of structural elements, material and behavior of the elements, damping ratios, solvers, input excitations, and many more.
 # mywebgmeapp
