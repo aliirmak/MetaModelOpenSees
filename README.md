@@ -10,6 +10,7 @@ This project seeks to add a basic support to WebGME to run OpenSees models. Usin
 - Python 3.6 is used. Packages like webgme_binding, sys, os, time, csv, subprocess, signal, atexit, ElementTree, StringIO and logging should be already installed since the transformation code.
 - plotly.js is used for visualization. It is already provided in the repo so no need for new installation.
 - I believe dumping the content to a freshly created **mywebgmeapp** should make the project work.
+- Import **.webgmex** seed file in **seed folder** while being at WebGME.
 
 ## How to run transformation
 - There are two examples. One for 2D (pushover) static and the other one is dynamic (earthquake) simulation.
